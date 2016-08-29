@@ -1,0 +1,140 @@
+/* GLOBAL */
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+.container {
+	width:60%;
+	max-width:1200px;
+	margin:0 auto;
+
+
+}
+.row:before, .row:after {
+	content: "";
+	display:table;2
+}
+
+[class*="col-"] {
+	min-height:7px;
+	padding:12px;
+	float:left;
+}
+.col-1 {
+	width:8.333333%;
+}
+.col-2 {
+	width:16.666667%;
+}
+.col-3 {
+	width:25%;
+}
+.col-4 {
+	width:33.333333%;
+}
+.col-5 {
+	width:41.666667%;
+}
+.col-6 {
+	width:50%;
+}
+.col-7 {
+	width:58.333333%;
+}
+.col-8{
+	width:66.66666%;
+}
+.col-9 {
+	width:75%;
+}
+.col-10 {
+	width:83.3333333%;
+}
+.col-11 {
+	width:91.6666666%;
+}
+.col-12 {
+	width:100%;
+}
+
+.grupal {
+	width:100%;
+}
+
+.menu {
+	border:1px solid black;
+	width:100%;
+	margin:auto;
+}
+.logo {
+	margin-left:15px;
+}
+
+.uno{
+	border:1px solid black;
+	width:90%
+}
+
+.dos {
+	width:10% solid black;
+}
+.tres{
+	width:10% solid black;
+}
+
+div p {
+	font-size:20px;
+	text-align:center;
+	padding: 100px;
+}
+
+
+li a {
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	padding:10px;
+	margin-left:20px;
+	border-right:1px solid black;
+}
+nav ul {
+	list-style:none;
+}
+
+img {
+	padding-top:25px;
+	padding-left:25px;
+}
+
+/*aqui comienza 2 pagina*/
+
+.avatar {
+	margin: 0;
+	padding: 0;
+	border-radius: 800px;
+	overflow: hidden;
+	margin-left:35%;
+	margin-top:20px;
+}
+
+h1 {
+	text-align:center;
+	font-size:50px;
+	padding-top:30px;
+}
+
+.descripcion {
+	padding:10px;
+}
+
+.len {
+	margin-left:15px;
+	height:50px;
+	background-color:#9B9494;
+	color:white;
+	padding:15px;
+
+}
